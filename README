@@ -1,0 +1,17 @@
+# Test::Unit To RSpec convertor 
+A Rails Plugin by David Rice
+
+This plugin is an attempt at easing the conversion processes between the Test::Unit and RSpec frameworks for Rails testing. It's not in anyway guaranteed to get your test cases passing with RSpec without a bit of love and attention. It adds the following rake task;
+
+  rake convert_to_rspec
+
+## Quick Notes
+
+* Make sure you backup first before running
+* Note: No changes are actually made to the test/ directory files
+* Unit, Functional and Helper (if in their default locations will be found and converted)
+* Spec files will all be generated in the spec/ directory 
+* If it doesn't work entirely for you why not think about adding to it, there's tests!
+
+http://rspec.rubyforge.org/
+http://www.davidjrice.co.uk
