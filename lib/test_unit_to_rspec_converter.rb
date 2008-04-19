@@ -103,7 +103,7 @@ class TestUnitToRspecConverter
   
   # ASSERT foo -> foo.should
   def convert_assert_true
-    test_case.gsub!(/assert#{@open}(.*)#{@close}#{@end}/) { |s| params($1) +".should" }
+    test_case.gsub!(/assert#{@open}(.*)#{@close}#{@end}/) { |s| params($1) +".should_not be_false" }
   end
   
   # ASSERT !foo -> foo.should_not be_true
