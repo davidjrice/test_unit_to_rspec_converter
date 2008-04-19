@@ -1,5 +1,6 @@
 # Test::Unit To RSpec convertor 
 A Rails Plugin by David Rice
+with some patches contributed by Michael Grosser
 
 This plugin is an attempt at easing the conversion processes between the Test::Unit and RSpec frameworks for Rails testing. It's not in anyway guaranteed to get your test cases passing with RSpec without a bit of love and attention. It adds the following rake task;
 
